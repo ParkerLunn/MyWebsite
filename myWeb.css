@@ -1,11 +1,27 @@
-.header{
 
+.navbar{
+	background: #41ddf2;
 }
-
-.main-body{
-
+#content{
+	text-align: center;
+	padding-top: 10%;
 }
-
-.foot{
-	
+#midlinks{
+	align-content: center;
+	margin-top: 50px;
+}
+#left-l{
+	text-align: right;
+	background-color: #41ddf2;
+}
+#mid-l{
+	background-color: #41ddf2;
+}
+#right-l{
+	text-align: left;
+	background-color: #41ddf2;
+}
+#icon-l{
+	font-size: 2em;
+	color: black;
 }

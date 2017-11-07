@@ -1,6 +1,16 @@
+/*
+Color Scheme:
+purple Navy: #4c6085
+brilliant Azure: #39A0ED;
+Turquoise: #36F1cd;
+robin egg blue: #00cecb
+Jet: #32322c;
+white
 
+*/
 .navbar{
-	background: #41ddf2;
+	background: #36f1cd;
+	border: none;
 }
 #content{
 	text-align: center;
@@ -22,6 +32,12 @@
 	background-color: #41ddf2;
 }
 #icon-l{
-	font-size: 2em;
 	color: black;
+}
+body{
+	background: #00cecb;
+}
+hr{
+	padding-left: 50px;
+	padding-right: 50px
 }

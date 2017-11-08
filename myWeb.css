@@ -11,6 +11,16 @@ white
 .navbar{
 	background: #36f1cd;
 	border: none;
+
+}
+.linkpanel{
+	height: 300px; 
+	background: black;
+	border: 1px solid grey;
+	opacity: 50%;
+}
+.linkpanel:hover{
+	opacity: 100%;
 }
 #content{
 	text-align: center;
@@ -22,14 +32,12 @@ white
 }
 #left-l{
 	text-align: right;
-	background-color: #41ddf2;
 }
 #mid-l{
-	background-color: #41ddf2;
+
 }
 #right-l{
 	text-align: left;
-	background-color: #41ddf2;
 }
 #icon-l{
 	color: black;

@@ -8,52 +8,153 @@ Jet: #32322c;
 white
 
 */
-.navbar{
-	background: #36f1cd;
-	border: none;
-
-}
-.linkpanel{
-	height: 300px; 
-	background: black;
-	border: 1px solid grey;
-	opacity: 50%;
-}
-.linkpanel:hover{
-	opacity: 100%;
-}
-#content{
-	text-align: center;
-	padding-top: 10%;
-}
-#midlinks{
-	align-content: center;
-	margin-top: 50px;
-}
-#left-l{
-	text-align: right;
-}
-#mid-l{
-
-}
-#right-l{
-	text-align: left;
-}
-#icon-l{
-	color: black;
-}
 body{
 	  background: 
     linear-gradient(
-    	to right,
-    	red 0%,
-    	rgba(57,160,237, 0.1),
-    	rgba(57,160,237, 1), 
-    	red 120%
+    	rgba(57,160,237, 0.45),
+    	rgba(57,160,237, 0.45) 
     ),
     url(https://images.unsplash.com/photo-1505327191481-d31e1fb4ff79?auto=format&fit=crop&w=2104&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D);
 }
 hr{
 	padding-left: 50px;
 	padding-right: 50px
+}
+.navbar{
+	background: #36f1cd;
+	border: none;
+
+}
+.linkpanel{
+    padding-bottom: 25%;
+	background: black;
+	border: 1px solid grey;
+	opacity: 100%;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.linkpanel:hover{
+
+	padding-bottom: 33%;
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+	width: 33%;
+	z-index: 1;
+}
+.box {
+  margin: 50px auto;
+  background: #5FCF80;
+  width: 150px;
+  height: 150px;
+}
+.box:hover {
+  transform: rotate(360deg);
+  background: #9351A6;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%
+}
+.rotate {
+  transition: all 0.5s ease-in-out;
+}
+.rotate:hover {
+  transition: all 1s ease-in-out;
+}
+/* Grow */
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* Fade */
+.hvr-fade {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+  background-color: #2098D1;
+  color: white;
+}
+#navHome{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+#navHome:hover{
+	  background-color: #2098D1;
+ 	 color: white;
+}
+#navAbout{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+#navAbout:hover{
+	  background-color: #2098D1;
+ 	 color: white;
+}
+#navContact{
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color;
+}
+#navContact:hover{
+	  background-color: #2098D1;
+ 	 color: white;
+}
+#content{
+	text-align: center;
+	padding-top: 10%;
+}
+#midlinks{
+	margin: auto;
+	margin-top: 50px;
+}
+#icon-l{
+	color: black;
 }

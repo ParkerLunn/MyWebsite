@@ -46,6 +46,12 @@ hr{
 	width: 33%;
 	z-index: 1;
 }
+.lpsmall{
+
+}
+.lplarge{
+	background: red;
+}
 .box {
   margin: 50px auto;
   background: #5FCF80;

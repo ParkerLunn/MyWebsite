@@ -9,19 +9,23 @@ white
 
 */
 body{
-	  background: 
+	font-family: cabin; 
+	background: 
     linear-gradient(
-    	rgba(57,160,237, 0.45),
-    	rgba(57,160,237, 0.45) 
+    	rgba(108,154,195, 0.45),
+    	rgba(108,154,195, 0.45) 
     ),
     url(https://images.unsplash.com/photo-1505327191481-d31e1fb4ff79?auto=format&fit=crop&w=2104&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 hr{
-	padding-left: 50px;
-	padding-right: 50px
+	box-shadow: 2px 2px;
 }
 .navbar{
-	background: #36f1cd;
+	background: #F29248;
 	border: none;
 
 }
@@ -37,6 +41,9 @@ hr{
   transition-duration: 0.3s;
   -webkit-transition-property: transform;
   transition-property: transform;
+}
+#bottomAl{
+	vertical-align: text-bottom;
 }
 .linkpanel:hover{
 
@@ -54,7 +61,7 @@ hr{
 }
 .box {
   margin: 50px auto;
-  background: #5FCF80;
+  background: #F96900;
   width: 150px;
   height: 150px;
 }
@@ -104,6 +111,17 @@ hr{
 .hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
   background-color: #2098D1;
   color: white;
+}
+#hName{
+	font-family: VT323;
+	font-size: 2em;
+	color: white;
+}
+#midHeader{
+	font-size: 5em;
+	color: white;
+	text-shadow: 2px 2px 2px black,
+				 2px 4px 6px rgba(0,0,0,0.1);
 }
 #navHome{
   display: inline-block;

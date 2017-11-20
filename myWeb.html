@@ -2,9 +2,11 @@
 <html>
 <head>
 	<title>Parker Lunn</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="myWeb.css">
+	<link href="https://fonts.googleapis.com/css?family=Cabin:400,700|Inconsolata|Pacifico|Quicksand:400,700|VT323" rel="stylesheet">
 </head>
 	<body ng-app>
 		<nav class="navbar navbar-default">
@@ -17,7 +19,7 @@
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      </button>
-		      <a class="navbar-brand" href="#">P. Lunn</a>
+		      <a class="navbar-brand" href="#" id="hName">Parker Lunn</a>
 		    </div>
 
 		    <!-- Collect the nav links, forms, and other content for toggling -->
@@ -58,7 +60,7 @@
 			<div class="row">
 				<div id="content">
 					<div class=""></div>
-					<h1>Match</h1>
+					<h1 id="midHeader">Information Panel</h1>
 					<h3></h3>
 					<hr>
 			<!-- 		<button
@@ -66,14 +68,16 @@ ng-class="{'some-class':hovering}"
 ng-mouseenter="hovering=true"
 ng-mouseleave="hovering=false">Add and Optimize</button> -->
 					<div class="row-fluid">
-						<a href="">
-							<div class="col-md-4 linkpanel"  ng-mouseover="ng-class = lplarge">Left</div>
+						<a href="C:\Users\ParkerL\Downloads\Resume.pdf" target="_blank">
+							<div class="col-md-4 linkpanel" ng-mouseover="ng-class = lplarge">
+								Resume
+							</div>
 						</a>
 						<a href="">
-							<div class="col-md-4 linkpanel">Mid</div>
+							<div class="col-md-4 linkpanel">About Me</div>
 						</a>
 						<a href="">
-							<div class="col-md-4 linkpanel">right</div>
+							<div class="col-md-4 linkpanel">Projects</div>
 						</a>
 					</div>
 				</div>
@@ -83,12 +87,49 @@ ng-mouseleave="hovering=false">Add and Optimize</button> -->
 		<button ng-mouseover="count = count + 1" ng-init="count=0">
  		 	Increment (when mouse is over)
 		</button>
-
+		{{count}}
 		<div class="container">
   			<div class="box rotate"></div>
 		</div>
-
-
+		<hr>
+		<div class="container">
+			<p style="font-size: 2em; text-align: center;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
 
 
 		<!-- Scripts -->
